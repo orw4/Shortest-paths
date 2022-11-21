@@ -9,7 +9,6 @@ class Map:
 
     # the vertices are a list of vertices (represented by letters)
     # the edges are a list of lists, each list has 2 vertices and a weight (a number representing the distance)
-    # the start and end are the beginning point and the destination of the path
 
     # finds the index of a given vertex
     def findVertex(self,vertex):
