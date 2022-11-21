@@ -37,6 +37,7 @@ class Map:
         distances[self.findVertex(self.start)] = 0
         return distances
 
+    # finds the length of the shortest path from start to each vertex
     def shortestPath(self):
         distances = self.setDistance()
         searched = [self.start]
