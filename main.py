@@ -52,9 +52,4 @@ class Map:
                 searched.append(v1[0])
         return distances
 
-
-v = ['u','a','b','c','d','e']
-e = [['u','a',1],['u','b',3],['a','d',5],['a','c',4],['b','c',5],['b','d',4],['c','e',6],['d','e',2]]
-s = 'u'
-m = Map(v,e,s)
-print(m.shortestPath())
+    
